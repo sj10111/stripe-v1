@@ -26,7 +26,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
       },
-      data: JSON.stringify({ price: `${price}` }),
+      data: JSON.stringify({ priceId: `${price}`,customerId:"cus_M81Cohpl9dEzzi" }),
     };
 
     await axios(config).then((res) =>{ 
